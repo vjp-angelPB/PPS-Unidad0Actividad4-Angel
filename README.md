@@ -146,15 +146,31 @@ Creamos un nuevo repositorio con el siguiente nombre: PPS-Unidad0Actividad4-TuNo
 6. Muestra los logs de las modificaciones realizadas en el último día
 
 
+## Ramas
+
+1. Lista las ramas existentes.
+
+Para listar las ramas locales usamos `git branch` y para las remotas `git branch -a`. 
 
 
 
+2. Crea una nueva rama con nombre Vers1 a partir de la rama actual.
+Dependiendo de la versión de Git, ejecutamos `git checkout -b Vers1` o para versiones más recientes `git switch -c Vers1`.
 
 
+3. Haz una modificación del index.html y guardas modificaciones.
 
 
+4. Sube los cambios al respositorio remoto a la rama Vers1 `git push origin Vers1` (En este caso podemos ver cómo el index.html de la rama m̀ain y Vers1 son diferentes.
 
 
+git add index.html
+
+git commit -m "Modificación del index.html en la rama Vers1"
+
+git push origin Vers1
+
+Para ver las diferencias entre la rama main y Vers1, ejecutamos el comando `git diff main..Vers1`
 
 
 
