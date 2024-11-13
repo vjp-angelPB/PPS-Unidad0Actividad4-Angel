@@ -7,11 +7,11 @@ Vamos a hacer una nueva actividad con git. En esta ocasión crearemos un pequeñ
 
 1. Configurar el editor de comandos, para ello ejecutamos `git config --global core.editor nano`
 
-![](Images/img)
+![](Images/img1)
 
 2. Configurar git para que al utilizar `git dif` o `git log` se muestre el mensaje completo sin entrar en el editor, ejecutamos `git config — global core.pager ' ' `
 
-![](Images/img)
+![](Images/img2)
 
 3. Ajustamos los valores de las variables de Git, para ello ejecutamos
 
@@ -20,7 +20,7 @@ Vamos a hacer una nueva actividad con git. En esta ocasión crearemos un pequeñ
 * git config  — global color.interactive auto
 * git config  — global color.diff auto
 
-![](Images/img)
+![](Images/img3)
 
 ## Creación de Proyecto y repositorio
 
@@ -30,15 +30,12 @@ Creamos un nuevo repositorio con el siguiente nombre: PPS-Unidad0Actividad4-TuNo
 
 1. Haz un listado en forma de arbol (`tree -a`) de todos los archivos del directorio.
 
-
+![](Images/img4)
 
 2. Crea un archivo con nombre README (si no existe todavía) y lo añades al proyecto.
-
-
-
 3. Comprueba el estado de git (`git status -s` o `git status --short`.
 
-
+![](Images/img5)
 
 4. Escribe en él una descripción de la actividad y vuelves a comprobar su estado.
 
@@ -48,23 +45,22 @@ Creamos un nuevo repositorio con el siguiente nombre: PPS-Unidad0Actividad4-TuNo
 
 1. Crea una carpeta con nombre Excluded. En ella vamos a colocar la documentación que no queremos que sea rastreada y subida al repositorio.
 
-![](Images/img)
-
 2. Para comprobar que funciona crea algún archivo vacío allí y también crea un archivo con nombre excluido.txt en el directorio principal del repositorio.
 
-![](Images/img)
+![](Images/img6)
+![](Images/img7)
 
 3. Crea un archivo con nombre .gitignore en el cual vamos a poner los archivos y directorios que no queremos que se rastreen.
 
-![](Images/img)
+![](Images/img8)
 
 4. Indica en el .gitignore que los archivos con extensión .txt y el directorio Excluded no deben de ser rastreados ni sincronizados.
 
-![](Images/img)
+![](Images/img9)
 
 5. Comprueba el estado del proyecto y comprueba que no nos indica nada del seguimiento de dichos archivos.
 
-![](Images/img)
+![](Images/img10)
 
 
 ## Trabajo con Git
@@ -77,8 +73,11 @@ Creamos un nuevo repositorio con el siguiente nombre: PPS-Unidad0Actividad4-TuNo
    <H1>Hola $USER¡¡¡ ¿Qué tal te encuentras?</H1>
 ```
 
+![](Images/img11)
+
 3. Visualiza el estado del proyecto ( puedes hacer tambien un git status corto `git status --s` o `git status --short`).
 
+![](Images/img12)
 
 4. Puedes ver como te indica que tienes varias operaciones por hacer: git add, git commit...
 
@@ -92,21 +91,29 @@ Creamos un nuevo repositorio con el siguiente nombre: PPS-Unidad0Actividad4-TuNo
 
 8. Vuelve a subir los cambios a tu repositorio de github (git push)
 
+![](Images/img13)
+
 ## Creación de nuestro servidor web y visualización de nuestro proyecto
 
 1. En un nueva pestaña de terminal y en el mismo directorio, ejecuta `php -S 0:8080` para lanzar un servidor con la página html que has creado.
 
+![](Images/img14)
 
 2. Visualiza la página creada, puedes acceder a ella en tu navegador en el puerto 8080 de tu equipo, es decir, 127.0.0.1:8080
 
+![](Images/img15)
 
 ## Seguimos Trabajando con Git
 
 1. Haz una copia del archivo local index.html con el nombre index.html.save. Modifica el fichero index.html para que cambie el texto mostrado en la página web.
 
+![](Images/img16)
+![](Images/img18)
+![](Images/img19)
 
 2. Verifica estado del proyecto.
 
+![](Images/img17)
 
 3. Comprueba las diferencias de los archivos que no han sido añadidos (`git diff`)
 
