@@ -133,7 +133,8 @@ Creamos un nuevo repositorio con el siguiente nombre: PPS-Unidad0Actividad4-TuNo
 
 ## Git log
 
-1. En la siguiente página podemos encontrar información sobre los comandos de git log (Git Book sobre los comandos git log)[https://git-scm.com/book/es/v2/Fundamentos-de-Git-Ver-el-Historial-de-Confirmaciones]
+1. En la siguiente página podemos encontrar información sobre los comandos de git log [Git Book sobre los comandos git log]
+(https://git-scm.com/book/es/v2/Fundamentos-de-Git-Ver-el-Historial-de-Confirmaciones)
 
 2. Muestra los logs
 
