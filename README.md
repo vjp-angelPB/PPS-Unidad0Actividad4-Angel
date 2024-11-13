@@ -9,8 +9,7 @@ Vamos a hacer una nueva actividad con git. En esta ocasión crearemos un pequeñ
 
 ![](Images/img)
 
-2. Configurar para que al utilizar `git dif` o `git log`, se muestre el mensaje completo sin entrar en el editor.
-Debemos ejecutar `git config — global core.pager ' ' `
+2. Configurar git para que al utilizar `git dif` o `git log` se muestre el mensaje completo sin entrar en el editor, ejecutamos `git config — global core.pager ' ' `
 
 ![](Images/img)
 
