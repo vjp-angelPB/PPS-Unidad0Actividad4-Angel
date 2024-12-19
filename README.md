@@ -5,7 +5,7 @@ Vamos a hacer una nueva actividad con git. En esta ocasión crearemos un pequeñ
 
 ## Configuración de Git
 
-1. Configurar el editor de comandos, para ello ejecutamos `git config --global core.editor nano`
+1. Configurar el editor de comandos, para ello ejecutamos el comando `git config --global core.editor nano`
 
 ![](Images/img1.png)
 
